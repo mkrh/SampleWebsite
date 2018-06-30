@@ -1,0 +1,81 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+nav ul {
+  padding-top: 1rem;
+  margin: 0;
+  list-style: none;
+  text-align: right;
+}
+
+nav ul > li {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+nav ul > li > button {
+  background: none !important;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.nav-background {
+  width: 100%;
+  background: linear-gradient(#c2bfbfea, #ffffff00);
+}
+
+.background {
+  background-image: url("./assets/img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vw;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.background h1, h2 {
+  color: white;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.background h1 {
+  font-size: 10vw;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.background h2 {
+  text-align: right;
+}
+
+.content {
+  margin: 1rem;
+}
