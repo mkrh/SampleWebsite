@@ -1,5 +1,5 @@
 const time = document.getElementById("time");
-startClock();
+setInterval(startClock, 200);
 
 function startClock() {
   let today = new Date();
@@ -9,5 +9,4 @@ function startClock() {
   m = m < 10 ? "0" + m : m;
   s = s < 10 ? "0" + s : s;
   time.innerHTML = h + ":" + m + ":" + s;
-  let le = setTimeout(startClock, 100);
 }
